@@ -1,3 +1,4 @@
+
 function esNumeroEntero(numero) {
   // La función recibe un argumento llamado numero.
   // Verifica si este es un número entero o no.
@@ -7,6 +8,11 @@ function esNumeroEntero(numero) {
   // -1212 ---> true 
   // 121.212 ---> false 
   // Tu código:
+  
+  
+ //return numero - Math.floor(numero === 0)
+ return Number.isInteger(numero);
 }
 
-module.exports = esNumeroEntero;
+
+module.exports = esNumeroEntero ;
